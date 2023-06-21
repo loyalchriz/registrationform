@@ -1,0 +1,52 @@
+div{
+    background-color: gray;
+}
+h1{
+    font-size: 30px; font-weight: bold; text-align: center; margin: 30px;
+}
+#l1{
+    float: left; height: 95px; width: 25% ;
+}
+#l2{
+    float: right; height: 95px;  width: 75%;  
+}
+#f1 h1{
+    height: 50px; width: 100%; text-align: center; font-size: 30px; padding: 8px;
+}
+.Boxes{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.Boxes div{
+    clear: both;
+    padding: 50px;
+    height: 50px;
+    width: 80px;
+    margin: 80px;
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.bigbox{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.bigbox div{
+    padding: 50px;
+    height: 100px;
+    width: 200px;
+    margin: 70px;
+    text-align: center;
+    background-color: gray;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}

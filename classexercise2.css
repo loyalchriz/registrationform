@@ -1,0 +1,17 @@
+.Boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.Boxes div{
+    padding: 50px;
+    height: 250px;
+    width: 200px;
+    margin: 70px;
+    text-align: center;
+    background-color: gray;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
